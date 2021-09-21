@@ -139,6 +139,7 @@ var update = function (modifier) {
 
 //渲染
 var render = function () {
+    
     var loss = false;
     if (bgReady) {
         ctx.drawImage(bgImage, 0, 0);
@@ -155,6 +156,11 @@ var render = function () {
     ctx.textAlign = "left";
     ctx.textBaseline = "top";
     ctx.fillText("当前分数: " + monstersCaught, 32, 32);
+    if(dire==0){
+ctx.textAlign = "center";
+        ctx.textBaseline = "center";
+        ctx.fillText("按空格以开始", canvas.width / 2, canvas.height / 2);
+    }
 }
 
 
