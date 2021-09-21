@@ -130,7 +130,7 @@ var update = function (modifier) {
             && monster.y <= (hero.y + 32)
     ) {
         ++monstersCaught;
-        if (hero.speed <= 400) hero.speed += 1;
+        if (hero.speed <= 400) hero.speed += 5;
         if (cross > 40) cross -= 5;
         reset();
     }
