@@ -25,10 +25,10 @@ var cross = 200;//怪物转弯速度
 //处理输入
 var keysDown = {};
 addEventListener("keydown", function (e) {
-    keysDown[e.keyCode+28] = true;
+    keysDown[e.keyCode] = true;
 }, false);
 addEventListener("keyup", function (e) {
-    delete keysDown[e.keyCode+28];
+    delete keysDown[e.keyCode];
 }, false);
 
 //开始游戏
@@ -80,36 +80,36 @@ var update = function (modifier) {
             }
         }
     }
-    if (38 in keysDown) { //上
+    if (87 in keysDown || 119 in keysDown) { //上
         hero.y -= hero.speed * modifier;
-        dire = 38;
+        dire = 87;
     }
-    if (40 in keysDown) { //下
+    if (83 in keysDown || 115 in keysDown) { //下
         hero.y += hero.speed * modifier;
-        dire = 40;
+        dire = 83;
     }
-    if (37 in keysDown) { //左
+    if (65 in keysDown || 97 in keysDown) { //左
         hero.x -= hero.speed * modifier;
-        dire = 37;
+        dire = 65;
     }
-    if (39 in keysDown) { //右
+    if (68 in keysDown || 100 in keysDown) { //右
         hero.x += hero.speed * modifier;
-        dire = 39;
+        dire = 68;
     }
     if (32 in keysDown) { //空格
         dire = 0;
     }
 
-    if (dire == 38) { //上
+    if (dire == 87) { //上
         hero.y -= hero.speed * modifier;
     }
-    if (dire == 40) { //下
+    if (dire == 83) { //下
         hero.y += hero.speed * modifier;
     }
-    if (dire == 37) { //左
+    if (dire == 65) { //左
         hero.x -= hero.speed * modifier;
     }
-    if (dire == 39) { //右
+    if (dire == 68) { //右
         hero.x += hero.speed * modifier;
     }
     //是否出界
