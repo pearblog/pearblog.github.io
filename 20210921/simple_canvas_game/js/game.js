@@ -156,7 +156,10 @@ var render = function () {
     ctx.textAlign = "left";
     ctx.textBaseline = "top";
     ctx.fillText("当前分数: " + monstersCaught, 32, 32);
-    if(true){
+    if(dire==0){
+        
+    ctx.fillStyle = "rgb(250, 250, 250)";
+    ctx.font = "50px 站酷快乐体2016修订版";
 ctx.textAlign = "center";
         ctx.textBaseline = "center";
         ctx.fillText("按空格以开始", canvas.width / 2, canvas.height / 2);
