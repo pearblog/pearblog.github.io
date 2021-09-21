@@ -1,4 +1,3 @@
-<title>雪梨博客•pearblog</title>  
 
 ## Welcome to GitHub Pages
 
