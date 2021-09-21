@@ -156,7 +156,7 @@ var render = function () {
     ctx.textAlign = "left";
     ctx.textBaseline = "top";
     ctx.fillText("当前分数: " + monstersCaught, 32, 32);
-    if(dire==0){
+    if(true){
 ctx.textAlign = "center";
         ctx.textBaseline = "center";
         ctx.fillText("按空格以开始", canvas.width / 2, canvas.height / 2);
