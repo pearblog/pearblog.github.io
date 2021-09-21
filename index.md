@@ -2,33 +2,12 @@
 ## 欢迎来到雪梨博客
 ## Welcome to the pearblog
 
-You can use the [editor on GitHub](https://github.com/pearblog/pearblog.github.io/edit/main/index.md) to maintain and preview the content for your website in Markdown files.
+雪梨博客（以下简称“本博客”）是由我本人通过GitHub平台搭建的博客，由于本博客没有转载限制处理规范，于是采用了知乎的转载规范，本博客仅为知乎备份。
 
-Whenever you commit to this repository, GitHub Pages will run [Jekyll](https://jekyllrb.com/) to rebuild the pages in your site, from the content in your Markdown files.
+### Markdown形式
 
-### Markdown
-
-Markdown is a lightweight and easy-to-use syntax for styling your writing. It includes conventions for
-
-```markdown
-Syntax highlighted code block
-
-# Header 1
-## Header 2
-### Header 3
-
-- Bulleted
-- List
-
-1. Numbered
-2. List
-
-**Bold** and _Italic_ and `Code` text
-
-[Link](url) and ![Image](src)
-```
-
-For more details see [GitHub Flavored Markdown](https://guides.github.com/features/mastering-markdown/).
+本博客使用Markdown储存数据（以下简称“md”），部分无法达到的效果均用iframe实现。如下游戏（游戏素材及原作者请见[该博客](http://pearblog.github.io)），感谢。
+<iframe width="800" height="800" src="https://www.baidu.com"></iframe>
 
 ### Jekyll Themes
 
