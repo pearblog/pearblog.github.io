@@ -15,7 +15,7 @@
 
 ## 致谢
 
-感谢[知乎](https://www.zhihu.com/)
+感谢(https://www.zhihu.com/)
 
     感谢[GitHub](https://www.github.com/)
 
