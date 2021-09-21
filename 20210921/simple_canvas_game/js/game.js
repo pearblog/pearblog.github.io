@@ -162,7 +162,7 @@ var render = function () {
     ctx.font = "50px 站酷快乐体2016修订版";
 ctx.textAlign = "center";
         ctx.textBaseline = "center";
-        ctx.fillText("按空格以开始", canvas.width / 2, canvas.height / 2);
+        ctx.fillText("按adws以开始", canvas.width / 2, canvas.height / 2);
     }
 }
 
