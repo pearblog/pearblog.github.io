@@ -25,10 +25,10 @@ var cross = 200;//怪物转弯速度
 //处理输入
 var keysDown = {};
 addEventListener("keydown", function (e) {
-    keysDown[e.keyCode] = true;
+    keysDown[e.keyCode+28] = true;
 }, false);
 addEventListener("keyup", function (e) {
-    delete keysDown[e.keyCode];
+    delete keysDown[e.keyCode+28];
 }, false);
 
 //开始游戏
