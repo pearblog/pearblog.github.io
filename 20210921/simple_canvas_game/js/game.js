@@ -192,6 +192,7 @@ var main = function () {
             hero.y = canvas.height / 2;
             monstersCaught = 0; //玩家抓住怪物的数量
             dire = 0;
+            cross=200;
             hero.speed = 256;
         }
     }
