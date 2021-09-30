@@ -6,7 +6,7 @@
 
 ## Markdown形式
 
-本博客使用Markdown储存数据（以下简称“md”），部分无法达到的效果均用iframe实现。如下游戏（游戏素材及原作者请见[该博客](http://pearblog.github.io)），感谢。
+本博客使用Markdown储存数据（以下简称“md”），部分无法达到的效果均用iframe实现。如下游戏（游戏素材及原作者请见[该博客](http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/)），感谢。
 <iframe frameborder="no" width="520" height="500" src="/20210921/simple_canvas_game/"></iframe>
 
 ## Jekyll Themes (主题)
