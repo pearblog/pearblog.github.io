@@ -36,8 +36,8 @@
                                  
 <div id="diy_right_menu">
     <ul>
-        <li><h3>目录页</h3></li>
-        <li>制作canvas游戏 20210921</li>
+        <li>目录页</li>
+        <li>制作canvas游戏</li>
     </ul>
 </div>
 <style>
