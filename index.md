@@ -32,6 +32,13 @@
                                的
 
                                  你
+                                 
+                                 
+<div id="diy_right_menu">
+    <ul>
+        <li>test</li>
+    </ul>
+</div>
 <style>
 #diy_right_menu {
                 opacity: 0.05;
