@@ -36,11 +36,23 @@
                                  
 <div id="diy_right_menu">
     <ul>
-        <li style="list-style: none;">目录页</li>
+        <li style="list-style: none;text-align: center;">目录页</li>
         <li>制作canvas游戏</li>
     </ul>
 </div>
 <style>
+    @-webkit-keyframes myfirst {
+                /* Safari and Chrome */
+                0% {
+                    transform: translateX(8px);
+                }
+                33% {
+                    opacity: 1;
+                    border-radius: 5%;
+                    background-color: bisque;
+                }
+                66% {
+                }
 #diy_right_menu {
                 opacity: 0.5;
                 position: fixed;
@@ -54,6 +66,8 @@
                 transition: 0.6s ease-in-out;
                 color: white;
                 border-radius: 5px;
+    overflow-y: auto;
+max-height: 450px;
             }
             
             #diy_right_menu:hover {
