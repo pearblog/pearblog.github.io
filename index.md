@@ -67,14 +67,10 @@
             }
             
             #diy_right_menu a {
-                color: #f2f2f2cc;
                 transition: 0.4s ease-in-out;
             }
             
             #diy_right_menu a:hover {
-                font-size: larger;
-                color: blue;
-                background-color: bisque;
                 transition: 0.4s ease-in-out;
             }
 </style>
