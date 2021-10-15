@@ -37,7 +37,7 @@
 <div id="diy_right_menu">
     <ul>
         <li style="list-style: none;text-align: center;">目录页</li>
-        <li>制作canvas游戏</li>
+        <li><a href="/0210921">制作canvas游戏</a></li>
     </ul>
 </div>
 <style>
