@@ -50,7 +50,7 @@
                 background-color: black;
                 padding: 1em;
                 border-radius: 0;
-                0.6s cubic-bezier(0.4, 0, 1, 1)
+                transition: 0.6s cubic-bezier(0.4, 0, 1, 1)
                 color: white;
                 border-radius: 5px;
             }
@@ -62,7 +62,7 @@
                 border-radius: 10px;
                 opacity: 1.3;
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-                transition: 0.4s ease-in-out;
+                transition: 0.4s cubic-bezier;
             }
             
             #diy_right_menu a {
