@@ -37,7 +37,7 @@
 <div id="diy_right_menu">
     <ul>
         <li style="list-style: none;text-align: center;">目录页</li>
-        <li><a href="/0210921">制作canvas游戏</a></li>
+        <li><a href="/20210921">制作canvas游戏</a></li>
     </ul>
 </div>
 <style>
@@ -69,6 +69,7 @@ max-height: 450px;
             }
             
             #diy_right_menu a {
+    color:white
                 transition: 0.4s ease-in-out;
             }
             
