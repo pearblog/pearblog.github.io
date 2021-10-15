@@ -54,6 +54,7 @@
                 66% {
                 }
 #diy_right_menu {
+    -webkit-animation: myfirst 1.8s;
                 opacity: 0.5;
                 position: fixed;
                 right: 2%;
