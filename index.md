@@ -41,20 +41,7 @@
     </ul>
 </div>
 <style>
-    @-webkit-keyframes myfirst {
-                /* Safari and Chrome */
-                0% {
-                    transform: translateX(8px);
-                }
-                33% {
-                    opacity: 1;
-                    border-radius: 5%;
-                    background-color: bisque;
-                }
-                66% {
-                }
 #diy_right_menu {
-    -webkit-animation: myfirst 1.8s;
                 opacity: 0.5;
                 position: fixed;
                 right: 2%;
