@@ -41,7 +41,7 @@
 </div>
 <style>
 #diy_right_menu {
-                opacity: 0.05;
+                opacity: 0.5;
                 position: fixed;
                 right: 2%;
                 top: 2%;
@@ -50,15 +50,16 @@
                 background-color: black;
                 padding: 1em;
                 border-radius: 0;
-                transition: 0.6s ease-in-out;
+                0.6s cubic-bezier(0.4, 0, 1, 1)
                 color: white;
+                border-radius: 5px;
             }
             
             #diy_right_menu:hover {
                 color: white;
                 right: 2%;
                 top: 2%;
-                border-radius: 5%;
+                border-radius: 10px;
                 opacity: 1.3;
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
                 transition: 0.4s ease-in-out;
