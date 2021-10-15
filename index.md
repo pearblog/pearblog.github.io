@@ -36,7 +36,8 @@
                                  
 <div id="diy_right_menu">
     <ul>
-        <li>test</li>
+        <li><h3>目录页</h3>/li>
+        <li>制作canvas游戏 20210921</li>
     </ul>
 </div>
 <style>
@@ -50,7 +51,7 @@
                 background-color: black;
                 padding: 1em;
                 border-radius: 0;
-                transition: 0.6s cubic-bezier(0.4, 0, 1, 1)
+                transition: 0.6s ease-in-out;
                 color: white;
                 border-radius: 5px;
             }
@@ -62,7 +63,7 @@
                 border-radius: 10px;
                 opacity: 1.3;
                 box-shadow: 0 10px 20px rgba(0, 0, 0, 0.5);
-                transition: 0.4s cubic-bezier;
+                transition: 0.4s ease-in-out;
             }
             
             #diy_right_menu a {
