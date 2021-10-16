@@ -23,6 +23,7 @@
 逐渐增加难度
 
 将上下左右键改为wsad
+<link rel="stylesheet" type="text/css" href="pearblog.github.io/style.css">
 <div id="diy_right_menu">
     <ul>
         <li style="list-style: none;text-align: center;"><a href="javascript:void(history.back())">返回</a></li>
