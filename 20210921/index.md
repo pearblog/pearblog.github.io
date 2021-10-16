@@ -1,7 +1,4 @@
 ## 制作canvas游戏
-<head>
-<link rel="stylesheet" type="text/css" href="pearblog.github.io/style.css">
-  </head>
 这是我的第一篇博客，我就随便写写吧。
   
 我仿照这个[网站](http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/)做了一个类似贪吃蛇的游戏（作者介绍的方法与此不同，贪吃蛇版本是我后来改的），感谢该作者。
