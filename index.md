@@ -36,8 +36,8 @@
 <div id="diy_right_menu">
     <ul>
         <li style="list-style: none;">目录页</li>
-        <li><a href="/20211016">博客编写日记1——基础设施</a></li>
         <li><a href="/20210921">制作canvas游戏</a></li>
+        <li><a href="/20211016/">博客编写日记1——基础设施</a></li>
     </ul>
 </div>
 <link rel="stylesheet" type="text/css" href="pearblog.github.io/style.css">
