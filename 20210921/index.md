@@ -1,5 +1,7 @@
 ## 制作canvas游戏
-
+<head>
+<link rel="stylesheet" type="text/css" href="pearblog.github.io/style.css">
+  </head>
 这是我的第一篇博客，我就随便写写吧。
   
 我仿照这个[网站](http://www.lostdecadegames.com/how-to-make-a-simple-html5-canvas-game/)做了一个类似贪吃蛇的游戏（作者介绍的方法与此不同，贪吃蛇版本是我后来改的），感谢该作者。
@@ -23,10 +25,10 @@
 逐渐增加难度
 
 将上下左右键改为wsad
-<link rel="stylesheet" type="text/css" href="pearblog.github.io/style.css">
+
 <div id="diy_right_menu">
     <ul>
-        <li style="list-style: none;text-align: center;"><a href="javascript:void(history.back())">返回</a></li>
+        <li style="list-style: none;"><a href="javascript:void(history.back())">返回</a></li>
     </ul>
 </div>
 <style>
