@@ -39,6 +39,7 @@
         <li><a href="/20210921">制作canvas游戏</a></li>
     </ul>
 </div>
+<link rel="stylesheet" type="text/css" href="pearblog.github.io/style.css">
 <style>
 #diy_right_menu {
                 opacity: 0.5;
