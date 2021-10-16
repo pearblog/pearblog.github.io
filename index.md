@@ -32,16 +32,6 @@
                                的
 
                                  你
-<script src="https://cdn.bootcss.com/jquery/3.4.1/jquery.js"></script>                    
-<script>
-    $.get('http://suoj.ezyro.com/?url=20210921', function(b) {
-
-document.body.innerText += b;
-
-});
-
-
-</script>
     
 <div id="diy_right_menu">
     <ul>
