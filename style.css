@@ -1,10 +1,7 @@
-@font-face { font-family: "站酷仓耳渔阳体-W01"; src: url('./站酷仓耳渔阳体-W01.ttf'); }
+
       h1,h2,h3,h4,h5,h6,p,i,u,strong,del,a{
-          font-family: 站酷仓耳渔阳体-W01;
+          font-family: 'PingFang SC','等线','Microsoft YaHei',Arial,Helvetica,'黑体',sans-serif;;
           margin:0;
-      }
-      .top-bar-section li a{
-          font-family: 站酷仓耳渔阳体-W01;
       }
       body{
         margin: 0;
