@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+ <head>
+   <title>我的小小世界</title>
+  <meta name="Keywords" Content="个人博客,日常博客,程序员,程序猿">
+  <meta name="Description" Content="这是一个程序员日常博客，干活、日常、编程、家常。。。啥玩意都有">
+  <meta content="always" name="referrer">
+  </head>
+<body style="overflow:hidden">
+  
+  <script>
+    function getQueryString(name) {
+var reg = new RegExp("(^|&)" + name + "=([^&]*)(&|$)", "i");
+var r = window.location.search.substr(1).match(reg);
+if (r != null) return unescape(r[2]); return null;
+} 
+    
+function jumpurl(){
+  location=getQueryString(url);
+}
+setTimeout('jumpurl()',3000);
+ 
+</script>
+  
+  <iframe id="iframe"
+        name="iframe"
+        height="100%"
+        width="100%"
+        src="https://znpdco.blog.luogu.org/"
+        scrolling="auto"
+        frameborder="0"
+        onload="changeFrameHeight()">
+</iframe>
+<script>
+    function changeFrameHeight() {
+        var iframe = document.getElementById("iframe");
+        iframe.height = document.documentElement.clientHeight;
+    }
+    //onresize属性可以用来获取或设置当前窗口的resize事件的事件处理函数
+    //onresize事件会在窗口或框架被调整大小时发生
+    window.onresize = function() {
+        changeFrameHeight();
+    }
+</script>
+ 
+
+ <h1>该网站为中介网站，访问请牢记官网：https://znpdco.blog.luogu.org/</h1>
+ 
+ <p>如页面一篇空白，请等待 3 秒或 <a href='https://znpdco.blog.luogu.org/'>戳这里</a> </p>
+
+ <p>友情链接</p>
+ 
+<a href="https://github.com/" target="_blank">Github</a>
+ 
+<a href="https://www.luogu.com.cn/" target="_blank">洛谷</a>
+ 
+<a href="https://www.ai144.com/" target="_blank">144秒收录</a>
+ 
+ <a href="https://www.888slw.com" target="_blank"><b>888收录网</b></a>
+</body>
+</html>
